@@ -1,0 +1,74 @@
+body {
+	/*background: rgb(14, 55, 220);*/
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	font-family: Helvetica, Arial, sans-serif;
+	
+}
+h1 {
+
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+	font-family: 'Indie Flower', cursive;
+	text-shadow: 10px 5px 10px red;
+}
+h2 {
+	text-align:center;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Indie Flower', cursive;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	border: 10px solid black;
+	border-radius: 50%;
+}
+.main{
+	background: rgba(255, 255, 255, 0.7);
+	box-shadow: 10px 10px 10px 10px yellow;
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+
+p,
+ol,
+ul {
+	line-height: 1.5; /*space between the text*/
+	list-style: none;
+	padding-left: 0;
+
+}
+
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color: purple;
+}
+a:hover {
+	text-decoration:underline;
+	color: magenta;
+	transform
+}
+
+h3{
+	margin-bottom:0;
+}
+
+h3:hover{
+	text-decoration: underline;
+	cursor: pointer;  
+}
+
+h3 + * {.    /*so * se polzva kato da otkrie vs failove i pod h3 */
+	display:none;
+}
+
